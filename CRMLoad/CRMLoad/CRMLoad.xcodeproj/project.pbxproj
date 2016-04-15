@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D607E8C1CACCF5C0090CC9E /* CRMLoaderAnimateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D607E8B1CACCF5C0090CC9E /* CRMLoaderAnimateView.m */; };
+		5D767CCB1CABB0E900C1EB3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D767CCA1CABB0E900C1EB3E /* main.m */; };
+		5D767CCE1CABB0E900C1EB3E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D767CCD1CABB0E900C1EB3E /* AppDelegate.m */; };
+		5D767CD11CABB0E900C1EB3E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D767CD01CABB0E900C1EB3E /* ViewController.m */; };
+		5D767CD41CABB0E900C1EB3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D767CD21CABB0E900C1EB3E /* Main.storyboard */; };
+		5D767CD61CABB0E900C1EB3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D767CD51CABB0E900C1EB3E /* Assets.xcassets */; };
+		5D767CD91CABB0E900C1EB3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D767CD71CABB0E900C1EB3E /* LaunchScreen.storyboard */; };
+		5D767CE31CABB16900C1EB3E /* CRMLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D767CE21CABB16900C1EB3E /* CRMLoader.m */; };
+		5D767CE51CABB4BD00C1EB3E /* icon_crm_load@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D767CE41CABB4BD00C1EB3E /* icon_crm_load@3x.png */; };
+		5D767CE71CABB4E500C1EB3E /* CRMLoader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D767CE61CABB4E500C1EB3E /* CRMLoader.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5D607E8A1CACCF5C0090CC9E /* CRMLoaderAnimateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRMLoaderAnimateView.h; sourceTree = "<group>"; };
+		5D607E8B1CACCF5C0090CC9E /* CRMLoaderAnimateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRMLoaderAnimateView.m; sourceTree = "<group>"; };
+		5D767CC61CABB0E900C1EB3E /* CRMLoad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CRMLoad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D767CCA1CABB0E900C1EB3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5D767CCC1CABB0E900C1EB3E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5D767CCD1CABB0E900C1EB3E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5D767CCF1CABB0E900C1EB3E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5D767CD01CABB0E900C1EB3E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5D767CD31CABB0E900C1EB3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D767CD51CABB0E900C1EB3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D767CD81CABB0E900C1EB3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D767CDA1CABB0E900C1EB3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D767CE11CABB16900C1EB3E /* CRMLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRMLoader.h; sourceTree = "<group>"; };
+		5D767CE21CABB16900C1EB3E /* CRMLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRMLoader.m; sourceTree = "<group>"; };
+		5D767CE41CABB4BD00C1EB3E /* icon_crm_load@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_crm_load@3x.png"; sourceTree = "<group>"; };
+		5D767CE61CABB4E500C1EB3E /* CRMLoader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CRMLoader.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D767CC31CABB0E900C1EB3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D767CBD1CABB0E900C1EB3E = {
+			isa = PBXGroup;
+			children = (
+				5D767CC81CABB0E900C1EB3E /* CRMLoad */,
+				5D767CC71CABB0E900C1EB3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D767CC71CABB0E900C1EB3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D767CC61CABB0E900C1EB3E /* CRMLoad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D767CC81CABB0E900C1EB3E /* CRMLoad */ = {
+			isa = PBXGroup;
+			children = (
+				5D767CE01CABB14E00C1EB3E /* CRMLoader */,
+				5D767CCC1CABB0E900C1EB3E /* AppDelegate.h */,
+				5D767CCD1CABB0E900C1EB3E /* AppDelegate.m */,
+				5D767CCF1CABB0E900C1EB3E /* ViewController.h */,
+				5D767CD01CABB0E900C1EB3E /* ViewController.m */,
+				5D767CD21CABB0E900C1EB3E /* Main.storyboard */,
+				5D767CD51CABB0E900C1EB3E /* Assets.xcassets */,
+				5D767CD71CABB0E900C1EB3E /* LaunchScreen.storyboard */,
+				5D767CDA1CABB0E900C1EB3E /* Info.plist */,
+				5D767CC91CABB0E900C1EB3E /* Supporting Files */,
+			);
+			path = CRMLoad;
+			sourceTree = "<group>";
+		};
+		5D767CC91CABB0E900C1EB3E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D767CCA1CABB0E900C1EB3E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5D767CE01CABB14E00C1EB3E /* CRMLoader */ = {
+			isa = PBXGroup;
+			children = (
+				5D767CE41CABB4BD00C1EB3E /* icon_crm_load@3x.png */,
+				5D767CE11CABB16900C1EB3E /* CRMLoader.h */,
+				5D767CE21CABB16900C1EB3E /* CRMLoader.m */,
+				5D767CE61CABB4E500C1EB3E /* CRMLoader.xib */,
+				5D607E8A1CACCF5C0090CC9E /* CRMLoaderAnimateView.h */,
+				5D607E8B1CACCF5C0090CC9E /* CRMLoaderAnimateView.m */,
+			);
+			path = CRMLoader;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D767CC51CABB0E900C1EB3E /* CRMLoad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D767CDD1CABB0E900C1EB3E /* Build configuration list for PBXNativeTarget "CRMLoad" */;
+			buildPhases = (
+				5D767CC21CABB0E900C1EB3E /* Sources */,
+				5D767CC31CABB0E900C1EB3E /* Frameworks */,
+				5D767CC41CABB0E900C1EB3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CRMLoad;
+			productName = CRMLoad;
+			productReference = 5D767CC61CABB0E900C1EB3E /* CRMLoad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D767CBE1CABB0E900C1EB3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = iOS_Liu;
+				TargetAttributes = {
+					5D767CC51CABB0E900C1EB3E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 5D767CC11CABB0E900C1EB3E /* Build configuration list for PBXProject "CRMLoad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D767CBD1CABB0E900C1EB3E;
+			productRefGroup = 5D767CC71CABB0E900C1EB3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D767CC51CABB0E900C1EB3E /* CRMLoad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D767CC41CABB0E900C1EB3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D767CD91CABB0E900C1EB3E /* LaunchScreen.storyboard in Resources */,
+				5D767CD61CABB0E900C1EB3E /* Assets.xcassets in Resources */,
+				5D767CE51CABB4BD00C1EB3E /* icon_crm_load@3x.png in Resources */,
+				5D767CD41CABB0E900C1EB3E /* Main.storyboard in Resources */,
+				5D767CE71CABB4E500C1EB3E /* CRMLoader.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D767CC21CABB0E900C1EB3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D607E8C1CACCF5C0090CC9E /* CRMLoaderAnimateView.m in Sources */,
+				5D767CD11CABB0E900C1EB3E /* ViewController.m in Sources */,
+				5D767CCE1CABB0E900C1EB3E /* AppDelegate.m in Sources */,
+				5D767CCB1CABB0E900C1EB3E /* main.m in Sources */,
+				5D767CE31CABB16900C1EB3E /* CRMLoader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5D767CD21CABB0E900C1EB3E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D767CD31CABB0E900C1EB3E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5D767CD71CABB0E900C1EB3E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D767CD81CABB0E900C1EB3E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D767CDB1CABB0E900C1EB3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5D767CDC1CABB0E900C1EB3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D767CDE1CABB0E900C1EB3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CRMLoad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iOS-Liu.CRMLoad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5D767CDF1CABB0E900C1EB3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CRMLoad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iOS-Liu.CRMLoad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D767CC11CABB0E900C1EB3E /* Build configuration list for PBXProject "CRMLoad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D767CDB1CABB0E900C1EB3E /* Debug */,
+				5D767CDC1CABB0E900C1EB3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D767CDD1CABB0E900C1EB3E /* Build configuration list for PBXNativeTarget "CRMLoad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D767CDE1CABB0E900C1EB3E /* Debug */,
+				5D767CDF1CABB0E900C1EB3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D767CBE1CABB0E900C1EB3E /* Project object */;
+}
